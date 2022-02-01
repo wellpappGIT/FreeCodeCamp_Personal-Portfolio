@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --img-self: 20em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #ffffff;
+  color: rgb(0, 41, 35);
+
+  font-family: "Dongle", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* -------------- NAVBAR -------------- */
+
+
+
+/* -------------- IMAGE -------------- */
+.main-img {
+  height: var(--img-self);
+  width: var(--img-self);
+  border-radius: 50%;
+
+  background-image: url("../img/Swallow_round.png");
+  background-position: center center;
+  background-size: cover;
+
+  background-color: transparent;
+}
+
+.main-img:hover {
+  height: var(--img-self);
+  width: var(--img-self);
+  border-radius: 50%;
+
+  background-image: url("../img/Swallow_round_inverted.png");
+  background-position: center center;
+  background-size: cover;
+
+  background-color: transparent;
