@@ -18,7 +18,7 @@ body {
   /* font-family: "Dongle", sans-serif; */
   font-family: "Caveat", cursive;
 }
-
+p,
 h1,
 h2,
 h3 {
@@ -141,26 +141,67 @@ h2 {
 
 .project-card {
   background-color: white;
-  width: 280px;
-  height: 400px;
+  width: 17em;
+  height: 25em;
 
   padding: 1em 1em;
   margin: 0 1em 2em 1em;
 
   border-radius: 5px;
+  box-shadow: 1px 1px 10px red;
 }
 
 .card-img {
   display: flex;
 
-  height: 150px;
+  justify-content: center;
+}
 
+.card-img img {
+  border-radius: 5px;
+
+  height: 8.5em;
+  width: 15em;
+  margin-bottom: 0.2em;
+}
+
+.card-text {
+  height: 30%;
+
+  margin-top: 1em;
+}
+
+.buttons {
+  display: flex;
+  padding-top: 0.5em;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 6em;
+  height: 2em;
+  margin: 0.5em 0.5em 1.5em 0;
+
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.skills-box {
+  display: flex;
   justify-content: center;
 }
 
 .skills-box img {
-  height: 3em;
-  margin-left: 0.5em;
+  height: 2.5em;
+  margin: 0 0.2em;
   box-shadow: 1px 1px 10px tomato;
 }
 
