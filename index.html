@@ -19,26 +19,26 @@
   </head>
 
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <ul>
         <li class="nav-links"><a href="#Home">Home</a></li>
         <li class="nav-links"><a href="#Projects">Projects</a></li>
         <li class="nav-links"><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
-    <main>
+    <main id="Home">
       <div class="top-container">
         <div class="main-img"></div>
 
-        <div class="header">
+        <div class="header" id="welcome-section">
           <h1>Wilmer Persson</h1>
           <h2>Web Developer in training</h2>
         </div>
       </div>
       <div class="mid-container">
         <h3 class="projects-text">Projects</h3>
-        <div class="projects">
-          <div class="project-card">
+        <section class="projects" id="projects">
+          <div class="project-tile">
             <div class="card-img">
               <img src=".\img\productlanding_small.png" alt="" />
             </div>
@@ -53,12 +53,12 @@
             <div class="buttons">
               <a
                 href="https://wellpappgit.github.io/FreeCodeCamp_Product-landing-page/"
-                target="#"
+                target="_blank"
                 ><button>Site</button></a
               >
               <a
                 href="https://github.com/wellpappGIT/FreeCodeCamp_Product-landing-page"
-                target="#"
+                target="_blank"
                 ><button>GitHub</button></a
               >
             </div>
@@ -67,7 +67,7 @@
               <img class="skill-icon" src=".\img\CSS3.png" alt="" />
             </div>
           </div>
-          <div class="project-card">
+          <div class="project-tile">
             <div class="card-img">
               <img src=".\img\surveyform_small.png" alt="" />
             </div>
@@ -81,12 +81,12 @@
             <div class="buttons">
               <a
                 href="https://wellpappgit.github.io/FreeCodeCamp_Build-a-Survey-Form/"
-                target="#"
+                target="_blank"
                 ><button>Site</button></a
               >
               <a
                 href="https://github.com/wellpappGIT/FreeCodeCamp_Build-a-Survey-Form"
-                target="#"
+                target="_blank"
                 ><button>GitHub</button></a
               >
             </div>
@@ -95,13 +95,25 @@
               <img class="skill-icon" src=".\img\CSS3.png" alt="" />
             </div>
           </div>
-        </div>
+        </section>
+      </div>
+      <div class="lower-mid" id="about">
+        <!-- TODO: make a About/Contact section -->
       </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="socials">
-        <a href=""><div class="github"></div></a>
-        <a href=""><div class="instagram"></div></a>
+        <a
+          href="https://github.com/wellpappGIT"
+          target="_blank"
+          id="profile-link"
+          ><div class="github"></div
+        ></a>
+        <a
+          href="https://www.instagram.com/wilmerperssonart/?hl=en"
+          target="_blank"
+          ><div class="instagram"></div
+        ></a>
       </div>
       <p>All rights reserved Wilmer Persson 2022 &copy;</p>
     </footer>
