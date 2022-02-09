@@ -172,6 +172,12 @@ h2 {
   margin-top: 1em;
 }
 
+.card-text p {
+  margin-top: 0.6em;
+  font-size: 0.95em;
+  font-family: monospace;
+}
+
 .buttons {
   display: flex;
   padding-top: 0.5em;
@@ -203,7 +209,9 @@ button:hover {
 .skills-box img {
   height: 2.5em;
   margin: 0 0.2em;
-  box-shadow: 1px 1px 10px tomato;
+
+  border-radius: 10%;
+  box-shadow: 1px 1px 5px gray;
 }
 
 /* -------------- LOWER MID - ABOUT -------------- */
